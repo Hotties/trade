@@ -24,7 +24,6 @@ daily_stats_list = []
 
 Codes = df_krx['Code'].tolist()
 Names = df_krx['Name'].tolist()
-print(Codes)
 stock_info_zip = list(zip(Codes,Names))
 
 for i,j in stock_info_zip:
